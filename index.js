@@ -54,110 +54,115 @@ sudo hire-me - ????
 
       case "skills":
         terminalBox.innerHTML += `
-    <div class="bg-black text-green-400 font-mono p-4">
-      <h1 class="text-green-400 font-semibold">$ skills</h1>
-      <h2 class="mt-2 text-lg">Technical Skills</h2>
-      <p class="text-green-500">________________________</p>
+  <div class="bg-black text-green-400 font-mono p-4">
+    <h1 class="text-green-400 font-semibold">$ skills</h1>
+    <h2 class="mt-2 text-lg">Technical Skills</h2>
+    <p class="text-green-500">________________________</p>
 
-      <!-- Frontend -->
-      <p class="mt-4 font-bold">Frontend Development:</p>
-      <div class="mt-2 space-y-1">
-        <div class="flex items-center justify-between">
-          <span>React/Next.js</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:95%"></div>
-          </div>
-          <span>95%</span>
+    <!-- Programming -->
+    <p class="mt-4 font-bold">Programming:</p>
+    <div class="mt-2 space-y-1">
+      <div class="flex items-center justify-between">
+        <span>Java</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:80%"></div>
         </div>
-        <div class="flex items-center justify-between">
-          <span>LinkScript</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:90%"></div>
-          </div>
-          <span>90%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>CSS/Tailwind</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:88%"></div>
-          </div>
-          <span>88%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>Vue.js</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:75%"></div>
-          </div>
-          <span>75%</span>
-        </div>
+        <span>80%</span>
       </div>
-
-      <!-- Backend -->
-      <p class="mt-4 font-bold">Backend Development:</p>
-      <div class="mt-2 space-y-1">
-        <div class="flex items-center justify-between">
-          <span>Node.js</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:85%"></div>
-          </div>
-          <span>85%</span>
+      <div class="flex items-center justify-between">
+        <span>JavaScript/TypeScript</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:90%"></div>
         </div>
-        <div class="flex items-center justify-between">
-          <span>Python</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:80%"></div>
-          </div>
-          <span>80%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>PostgreSQL</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:82%"></div>
-          </div>
-          <span>82%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>GraphQL</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:75%"></div>
-          </div>
-          <span>75%</span>
-        </div>
-      </div>
-
-      <!-- Tools -->
-      <p class="mt-4 font-bold">Tools & Others:</p>
-      <div class="mt-2 space-y-1">
-        <div class="flex items-center justify-between">
-          <span>Git/GitHub</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:95%"></div>
-          </div>
-          <span>95%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>Docker</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:80%"></div>
-          </div>
-          <span>80%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>AWS</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:70%"></div>
-          </div>
-          <span>70%</span>
-        </div>
-        <div class="flex items-center justify-between">
-          <span>Figma</span>
-          <div class="flex-1 mx-2 bg-green-900 h-4">
-            <div class="bg-green-400 h-4" style="width:75%"></div>
-          </div>
-          <span>75%</span>
-        </div>
+        <span>90%</span>
       </div>
     </div>
+
+    <!-- Web Development -->
+    <p class="mt-4 font-bold">Web Development:</p>
+    <div class="mt-2 space-y-1">
+      <div class="flex items-center justify-between">
+        <span>React/Next.js</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:95%"></div>
+        </div>
+        <span>95%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>Node.js/Express</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:85%"></div>
+        </div>
+        <span>85%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>Databases (MongoDB, MySQL, PostgreSQL)</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:82%"></div>
+        </div>
+        <span>82%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>GraphQL/Redux</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:75%"></div>
+        </div>
+        <span>75%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>Cloud (GCP, AWS, Azure)</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:70%"></div>
+        </div>
+        <span>70%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>Docker</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:80%"></div>
+        </div>
+        <span>80%</span>
+      </div>
+    </div>
+
+    <!-- App Development -->
+    <p class="mt-4 font-bold">App Development:</p>
+    <div class="mt-2 space-y-1">
+      <div class="flex items-center justify-between">
+        <span>React Native</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:85%"></div>
+        </div>
+        <span>85%</span>
+      </div>
+    </div>
+
+    <!-- Miscellaneous -->
+    <p class="mt-4 font-bold">Miscellaneous:</p>
+    <div class="mt-2 space-y-1">
+      <div class="flex items-center justify-between">
+        <span>DSA</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:75%"></div>
+        </div>
+        <span>75%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>Git/GitHub</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:95%"></div>
+        </div>
+        <span>95%</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <span>OOPs Concepts</span>
+        <div class="flex-1 mx-2 bg-green-900 h-4">
+          <div class="bg-green-400 h-4" style="width:85%"></div>
+        </div>
+        <span>85%</span>
+      </div>
+    </div>
+  </div>
   `;
         break;
 
