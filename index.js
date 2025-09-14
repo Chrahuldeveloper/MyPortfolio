@@ -39,14 +39,11 @@ sudo hire-me - ????
             <h2 class="text-white font-bold">About Rahul</h2>
             <p>==================</p>
             <p>
-              I'm a passionate developer with 5+ years of experience building web applications
-              that users love. I specialize in React, LinkScript, and modern web technologies,
+              I'm a passionate coder with 5+ years of experience building web applications and SaaS products that users love. I specialize in React, LinkScript, and modern web technologies,
               with a keen eye for design and user experience.<br><br>
-              When I'm not coding, you'll find me contributing to open source projects,
-              writing technical blog posts, or exploring the latest in web development.<br><br>
-              <strong>Current focus:</strong> Building scalable applications with React, Next.js, and Node.js<br>
+              When I'm not coding, you'll find me contributing to open source projects, writing technical blogs, or exploring the latest in Tech             
               <strong>Location:</strong> Hyderabad, IN<br>
-              <strong>Experience:</strong> 5+ years in full-stack development
+              <strong>Experience:</strong> 4+ years in full-stack development
             </p>
           </div>
         `;
