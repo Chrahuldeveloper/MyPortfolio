@@ -20,7 +20,7 @@ about          - Learn more about me
 skills         - View my technical skills
 projects       - Browse my projects
 resume         - Download my resume
-social (name)  - Open social profile (github/linkedin/twitter)
+social (name)  - Open social profile 
 clear          - Clear terminal output
             </pre>
             <p class="mt-4">Special commands:</p>
