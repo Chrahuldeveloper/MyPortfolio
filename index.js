@@ -172,34 +172,30 @@ sudo hire-me - ????
 
         <!-- Project 1 -->
         <div class="mt-4">
-          <p>[1] <span class="font-bold">TaskFlow – Project Management App</span></p>
-          <p class="pl-6">A full-stack task management application built with React and Node.js</p>
-          <p class="pl-6">Features real-time collaboration and advanced analytics</p>
-          <p class="pl-6">→ Link</p>
+          <p>[1] <span class="font-bold">FeedSenseAI</span></p>
+          <p class="pl-6">An AI-powered feedback management platform that converts user feedback into actionable insights. Businesses can integrate a customizable feedback form on their websites, and FeedSenseAI analyzes the data to suggest improvements, helping teams make data-driven decisions without guesswork</p>
+          <p class="pl-6">→ <a href="https://feedsenseai.vercel.app/" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
         </div>
 
         <!-- Project 2 -->
         <div class="mt-4">
-          <p>[2] <span class="font-bold">WeatherWise – Weather Dashboard</span></p>
-          <p class="pl-6">Beautiful weather app with location-based forecasts and alerts</p>
-          <p class="pl-6">Built with React, LinkScript, and OpenWeather API</p>
-          <p class="pl-6">→ Link</p>
+          <p>[2] <span class="font-bold">Matrix</span></p>
+          <p class="pl-6">Matrix is a networking app for tech enthusiasts across various domains. With 65 active users, it helps you discover and connect with like-minded people, chat with them, and share updates about your projects. Whether you’re looking to collaborate, learn, or showcase your work, Matrix makes networking simple and meaningful.</p>
+          <p class="pl-6">→ <a href="https://matrixappcom.netlify.app/" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
         </div>
 
         <!-- Project 3 -->
         <div class="mt-4">
-          <p>[3] <span class="font-bold">DevPortfolio – Portfolio Template</span></p>
-          <p class="pl-6">Customizable developer portfolio template with dark/light themes</p>
-          <p class="pl-6">Features MDX blog, project showcase, and contact forms</p>
-          <p class="pl-6">→ Link</p>
+          <p>[3] <span class="font-bold">InterviewPrepAI</span></p>
+          <p class="pl-6">An AI-driven interview preparation platform that generates tailored interview questions based on a candidate’s profile or job description. It helps users practice effectively, identify knowledge gaps, and boost confidence for real interviews.</p>
+          <p class="pl-6">→ <a href="https://chromewebstore.google.com/detail/interviewprepai/jfpbdijbapmdgnimkpdhmolmefjhbccp" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
         </div>
 
         <!-- Project 4 -->
         <div class="mt-4">
-          <p>[4] <span class="font-bold">ChatBot AI – Customer Support Bot</span></p>
-          <p class="pl-6">AI-powered chatbot for customer service automation</p>
-          <p class="pl-6">Built with Python, TensorFlow, and React frontend</p>
-          <p class="pl-6">→ Link</p>
+          <p>[4] <span class="font-bold">TapNFill</span></p>
+          <p class="pl-6">A seamless productivity tool that simplifies repetitive workflows. Users can automate filling forms and repetitive tasks, saving time and reducing errors, making everyday digital interactions faster and smarter.</p>
+          <p class="pl-6">→ <a href="https://chromewebstore.google.com/detail/tapnfill/mgenpnofgolhidfgggfhicbigpjmnokn" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
         </div>
 
       </div>
@@ -216,18 +212,18 @@ sudo hire-me - ????
 
         <div class="mt-4">
           <p>[1] <span class="font-bold">Github</span></p>
-          <p class="pl-6 text-slate-500 font-semibold">→ Link</p>
+          <p class="pl-6">→ <a href="https://github.com/Chrahuldeveloper" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
         </div>
 
         <div class="mt-4">
           <p>[2] <span class="font-bold">X</span></p>
-          <p class="pl-6 text-slate-500 font-semibold">→ Link</p>
+          <p class="pl-6">→ <a href="https://x.com/ChRahul_dev" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
          </div>
 
 
         <div class="mt-4">
           <p>[3] <span class="font-bold">Linkdin</span></p>
-          <p class="pl-6 text-slate-500 font-semibold">→ Link</p>
+          <p class="pl-6">→ <a href="https://www.linkedin.com/in/chrahuldev/" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
          </div>
 
           `;
