@@ -9,27 +9,40 @@ TerminalInput.addEventListener("keypress", (e) => {
     const command = TerminalInput.value.trim();
 
     switch (command) {
-      case "help":
-        terminalBox.innerHTML += `
-          <div class="bg-black text-gray-200 font-mono p-4">
-            <h1 class="text-green-400 font-semibold">$ help</h1>
-            <p class="mt-2">Available commands:</p>
-            <pre class="mt-2 text-xs sm:text-base">
-help           - Show this help message
+     case "help":
+  terminalBox.innerHTML += `
+    <div class="bg-black text-gray-200 font-mono p-4">
+      <h1 class="text-green-400 font-semibold">$ help</h1>
+      <p class="mt-2">Available commands:</p>
+      <pre id="helpTyped" class="mt-2 text-xs sm:text-base"></pre>
+      <p class="mt-4">Special commands:</p>
+      <pre id="specialTyped" class="mt-2 text-sm sm:text-base"></pre>
+    </div>
+  `;
+
+new Typed("#helpTyped", {
+  strings: [
+`help           - Show this help message
 about          - Learn more about me
 skills         - View my technical skills
 projects       - Browse my projects
 resume         - Download my resume
-social (name)  - Open social profile 
-clear          - Clear terminal output
-            </pre>
-            <p class="mt-4">Special commands:</p>
-            <pre class="mt-2 text-sm sm:text-base">
-sudo hire-me - ????
-            </pre>
-          </div>
-        `;
-        break;
+socials        - Open social profile 
+clear          - Clear terminal output`
+  ],
+  typeSpeed: 15,
+  showCursor: false,
+  onComplete: function () {
+    new Typed("#specialTyped", {
+      strings: ["sudo hire-me - ????"],
+      typeSpeed: 15,
+      showCursor: false,
+    });
+  }
+});
+
+  break;
+
 
       case "about":
         terminalBox.innerHTML += `
@@ -218,12 +231,10 @@ sudo hire-me - ????
           <p class="pl-6">→ <a href="https://x.com/ChRahul_dev" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
          </div>
 
-
-        <div class="mt-4">
+        <div class="mb-20">
           <p>[3] <span class="font-bold">Linkdin</span></p>
           <p class="pl-6">→ <a href="https://www.linkedin.com/in/chrahuldev/" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
          </div>
-
           `;
         break;
 
