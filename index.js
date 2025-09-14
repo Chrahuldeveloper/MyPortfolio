@@ -14,7 +14,7 @@ TerminalInput.addEventListener("keypress", (e) => {
           <div class="bg-black text-gray-200 font-mono p-4">
             <h1 class="text-green-400 font-semibold">$ help</h1>
             <p class="mt-2">Available commands:</p>
-            <pre class="mt-2 text-sm sm:text-base">
+            <pre class="mt-2 text-xs sm:text-base">
 help           - Show this help message
 about          - Learn more about me
 skills         - View my technical skills
