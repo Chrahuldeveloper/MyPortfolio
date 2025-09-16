@@ -9,8 +9,8 @@ TerminalInput.addEventListener("keypress", (e) => {
     const command = TerminalInput.value.trim();
 
     switch (command) {
-     case "help":
-  terminalBox.innerHTML += `
+      case "help":
+        terminalBox.innerHTML += `
     <div class="bg-black text-gray-200 font-mono p-4">
       <h1 class="text-green-400 font-semibold">$ help</h1>
       <p class="mt-2">Available commands:</p>
@@ -20,29 +20,28 @@ TerminalInput.addEventListener("keypress", (e) => {
     </div>
   `;
 
-new Typed("#helpTyped", {
-  strings: [
-`help           - Show this help message
+        new Typed("#helpTyped", {
+          strings: [
+            `help           - Show this help message
 about          - Learn more about me
 skills         - View my technical skills
 projects       - Browse my projects
 resume         - Download my resume
 socials        - Open social profile 
-clear          - Clear terminal output`
-  ],
-  typeSpeed: 15,
-  showCursor: false,
-  onComplete: function () {
-    new Typed("#specialTyped", {
-      strings: ["sudo hire-me - ????"],
-      typeSpeed: 15,
-      showCursor: false,
-    });
-  }
-});
+clear          - Clear terminal output`,
+          ],
+          typeSpeed: 15,
+          showCursor: false,
+          onComplete: function () {
+            new Typed("#specialTyped", {
+              strings: ["sudo hire-me - ????"],
+              typeSpeed: 15,
+              showCursor: false,
+            });
+          },
+        });
 
-  break;
-
+        break;
 
       case "about":
         terminalBox.innerHTML += `
@@ -250,6 +249,13 @@ clear          - Clear terminal output`
           "https://drive.google.com/file/d/1zscHjuRE7eqTQASA3RwbkpL-wB25CLup/view?usp=sharing&usp=embed_facebook",
           "_blank"
         );
+        break;
+
+      case "Spotify":
+        terminalBox.innerHTML += `
+          
+         `;
+
         break;
 
       case "clear":
