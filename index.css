@@ -1,3 +1,19 @@
 ::-webkit-scrollbar {
     display:  none;
 }
+
+  .widget-box {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 380px;
+    height: 200px;
+  }
+
+  @media (max-width: 640px) {
+    .widget-box {
+      width: 350px;
+      margin-left: 0;
+    }
+  }

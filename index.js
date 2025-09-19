@@ -262,12 +262,13 @@ clear          - Clear terminal output`,
              <div className="">
                      <iframe                                                
                     src=https://tune-in-inky.vercel.app/UmFodWw=/widget/cmNoNTUzMzYwQGdtYWlsLmNvbQ==/BQDClSiodlMiixGVm4hl35Cj7HSN3OhrhSxKIatxlI2bQplNg1WE3KSYqEUbLATVRpO4boJdK8FMP2cbiZHO28xXnDOLAvxqyAXh8pwZ3QUmOpqP04h7DTaiJqoPF6gffPfyxGRx-9Dgv0fec8VlPvyPRCclBQKDsvcWGHl3AYyEmCfZqEXvLGSwrsukeFPJETFFiCvS1c8D5agebEbJZUPnevTB9TDKZBrXl5sRHrcsh_LZ-VB4H7VBovTQ8Uq9jT_DNss/waveform
-                    style="border: none; border-radius: 12px; overflow: hidden; margin-left:10px"
+                    class="widget-box"
                     scrolling="no"
-                    width="380px"
-                    height="200px"
+                    // width="380px"
+                    // height="200px"
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"
+                    
                   ></iframe>
                      </div>
          `;
