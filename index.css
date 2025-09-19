@@ -13,7 +13,7 @@
 
   @media (max-width: 640px) {
     .widget-box {
-      width: 360px;
+      width: 350px;
       margin-left: 0px;
       height: 200px;
     }
