@@ -8,13 +8,13 @@
     overflow: hidden;
     margin-left: 10px;
     width: 380px;
-    height: 214px;
+    height: 180px;
   }
 
   @media (max-width: 640px) {
     .widget-box {
       width: 350px;
       margin-left: 0px;
-      height: 200px;
+      height: 180px;
     }
   }
