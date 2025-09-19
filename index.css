@@ -14,7 +14,8 @@
   @media (max-width: 640px) {
     .widget-box {
       width: 363px;
-      margin-left: 0;
+      margin-left: 0px;
+            margin-right: 10px;
       height: 200px;
     }
   }
