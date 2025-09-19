@@ -261,7 +261,7 @@ clear          - Clear terminal output`,
         </div>
              <div className="">
                      <iframe                                                
-                    src=https://tune-in-inky.vercel.app/UmFodWw=/widget/cmNoNTUzMzYwQGdtYWlsLmNvbQ==/BQDClSiodlMiixGVm4hl35Cj7HSN3OhrhSxKIatxlI2bQplNg1WE3KSYqEUbLATVRpO4boJdK8FMP2cbiZHO28xXnDOLAvxqyAXh8pwZ3QUmOpqP04h7DTaiJqoPF6gffPfyxGRx-9Dgv0fec8VlPvyPRCclBQKDsvcWGHl3AYyEmCfZqEXvLGSwrsukeFPJETFFiCvS1c8D5agebEbJZUPnevTB9TDKZBrXl5sRHrcsh_LZ-VB4H7VBovTQ8Uq9jT_DNss/waveform
+                    src=https://tune-in-inky.vercel.app/UmFodWw=/widget/cmNoNTUzMzYwQGdtYWlsLmNvbQ==/BQCEjCIWp_JItcKfpvcXfGtkc9k-K5VCEYFh_D1NY7UwLLhjxcOMkxzC2F1CHYz2XfXG_-rHzoBYjyYilc6yr5RV-GzKqfJ1uwu1MjvT4yP55OL_xw_4lkqYSLCstoDZDmHGyzMVzZR_LoSw0PJ6hFS100TNoGR1Zs7RBqEFoQla6q_Dw_yL6dUYeHJBtB79c7R2rGbshOsTznedB1LTGeHsi-rlqkCv0dojHvw9QMaTu2FXwOaXkqQsvpiCKcxjhbeCsnQ/waveform
                     class="widget-box"
                     scrolling="no"
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
