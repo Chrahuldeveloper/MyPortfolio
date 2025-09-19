@@ -28,6 +28,7 @@ skills         - View my technical skills
 projects       - Browse my projects
 resume         - Download my resume
 socials        - Open social profile 
+spotify        – See the current Playing song
 clear          - Clear terminal output`,
           ],
           typeSpeed: 15,
@@ -251,9 +252,24 @@ clear          - Clear terminal output`,
         );
         break;
 
-      case "Spotify":
+      case "spotify":
         terminalBox.innerHTML += `
-          
+         <div class="bg-black text-slate-200 font-mono p-4">
+        <h1 class="text-green-500 font-semibold">$ spotify</h1>
+        <h2 class="mt-2 text-lg text-green-500">Song I'm currently Listing to</h2>
+        <p class="text-slate-200">==================</p>
+        </div>
+             <div className="ml-28">
+                     <iframe                                                
+                    src=https://tune-in-inky.vercel.app/UmFodWw=/widget/cmNoNTUzMzYwQGdtYWlsLmNvbQ==/BQDClSiodlMiixGVm4hl35Cj7HSN3OhrhSxKIatxlI2bQplNg1WE3KSYqEUbLATVRpO4boJdK8FMP2cbiZHO28xXnDOLAvxqyAXh8pwZ3QUmOpqP04h7DTaiJqoPF6gffPfyxGRx-9Dgv0fec8VlPvyPRCclBQKDsvcWGHl3AYyEmCfZqEXvLGSwrsukeFPJETFFiCvS1c8D5agebEbJZUPnevTB9TDKZBrXl5sRHrcsh_LZ-VB4H7VBovTQ8Uq9jT_DNss/waveform
+                    style="border: none; border-radius: 12px; overflow: hidden; margin-left:80px"
+                    scrolling="no"
+                    width="380px"
+                    height="200px"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                  ></iframe>
+                     </div>
          `;
 
         break;
