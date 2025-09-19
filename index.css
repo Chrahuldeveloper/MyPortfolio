@@ -13,9 +13,8 @@
 
   @media (max-width: 640px) {
     .widget-box {
-      width: 365px;
+      width: 363px;
       margin-left: 0;
       height: 200px;
-      margin:10px ;
     }
   }
