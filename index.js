@@ -11,7 +11,7 @@ TerminalInput.addEventListener("keypress", (e) => {
     switch (command) {
       case "help":
         terminalBox.innerHTML += `
-    <div class="bg-black text-gray-200 font-mono p-4">
+    <div class=" text-gray-200 font-mono p-4">
       <h1 class="text-green-400 font-semibold">$ help</h1>
       <p class="mt-2 text-green-400">Available commands:</p>
       <pre id="helpTyped" class="mt-2 text-xs sm:text-base text-green-400"></pre>
@@ -46,7 +46,7 @@ clear          - Clear terminal output`,
 
       case "about":
         terminalBox.innerHTML += `
-          <div class="bg-black text-gray-200 font-mono p-4 space-y-3.5">
+          <div class=" text-gray-200 font-mono p-4 space-y-3.5">
             <h1 class="text-green-400 font-semibold">$ about</h1>
             <h2 class="text-green-400 font-bold">About Rahul</h2>
             <p class="text-green-400">==================</p>
@@ -62,7 +62,7 @@ clear          - Clear terminal output`,
 
       case "skills":
         terminalBox.innerHTML += `
-  <div class="bg-black text-green-400 font-mono p-4 my-5">
+  <div class=" text-green-400 font-mono p-4 my-5">
     <h1 class="text-green-400 font-semibold">$ skills</h1>
     <h2 class="mt-2 text-lg text-green-400">Technical Skills</h2>
     <p class="text-green-500">________________________</p>
@@ -176,7 +176,7 @@ clear          - Clear terminal output`,
 
       case "projects":
         terminalBox.innerHTML += `
-      <div class="bg-black text-slate-200 font-mono p-4">
+      <div class=" text-slate-200 font-mono p-4">
         <h1 class="text-green-500 font-semibold">$ projects</h1>
         <h2 class="mt-2 text-lg text-green-400">Featured Projects</h2>
         <p class="text-green-400">==================</p>
@@ -215,24 +215,24 @@ clear          - Clear terminal output`,
 
       case `socials`:
         terminalBox.innerHTML += `
-       <div class="bg-black text-slate-200 font-mono p-4">
+       <div class=" text-slate-200 font-mono p-4">
         <h1 class="text-green-500 font-semibold">$ Socials</h1>
-        <h2 class="mt-2 text-lg">Follow me on Socials</h2>
-        <p class="text-slate-200">==================</p>
+        <h2 class="mt-2 text-lg text-green-400">Follow me on Socials</h2>
+        <p class="text-green-400">==================</p>
         </div>
 
         <div class="mt-4">
-          <p>[1] <span class="font-bold">Github</span></p>
+          <p>[1] <span class="font-bold text-green-500">Github</span></p>
           <p class="pl-6">→ <a href="https://github.com/Chrahuldeveloper" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
         </div>
 
         <div class="mt-4">
-          <p>[2] <span class="font-bold">X</span></p>
+          <p>[2] <span class="font-bold text-green-500">X</span></p>
           <p class="pl-6">→ <a href="https://x.com/ChRahul_dev" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
          </div>
 
         <div class="mb-20">
-          <p>[3] <span class="font-bold">Linkdin</span></p>
+          <p>[3] <span class="font-bold text-green-500">Linkdin</span></p>
           <p class="pl-6">→ <a href="https://www.linkedin.com/in/chrahuldev/" target="_blank" class="text-blue-500 hover:underline">Link</a></p>
          </div>
           `;
@@ -254,7 +254,7 @@ clear          - Clear terminal output`,
 
       case "spotify":
         terminalBox.innerHTML += `
-         <div class="bg-black text-slate-200 font-mono p-4">
+         <div class=" text-slate-200 font-mono p-4">
         <h1 class="text-green-500 font-semibold">$ spotify</h1>
         <h2 class="mt-2 text-lg text-green-500">Song I'm currently Listing to</h2>
         <p class="text-slate-200">==================</p>
@@ -286,7 +286,6 @@ clear          - Clear terminal output`,
     }
 
     terminalBox.scrollTop = terminalBox.scrollHeight;
-
     TerminalInput.value = "";
   }
 });
