@@ -240,7 +240,7 @@ clear          - Clear terminal output`,
 
       case "resume":
         terminalBox.innerHTML += `
-        <div class="bg-black  font-mono p-4">
+        <div class="  font-mono p-4">
         <h1 class="text-green-500 font-semibold">$ resume</h1>
         <h2 class="mt-2 text-green-500 text-lg font-semibold">Opening resume</h2>
         <p class="text-slate-200">==================</p>
