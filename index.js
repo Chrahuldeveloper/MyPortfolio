@@ -273,7 +273,12 @@ clear          - Clear terminal output`,
         break;
 
       case "clear":
-        terminalBox.innerHTML = "";
+        Array.from(terminalBox.children).forEach((element) => {
+          if (element.id !== "topText1" && element.id !== "topText2") {
+            console.log(element);
+            element.remove();
+          }
+        });
         break;
 
       default:
