@@ -1,9 +1,18 @@
 import { Router } from "express";
 import db from "../dbconfig/ConnectDb";
+import rateLimiter from "../ratelimiter/RateLimiter";
 const saveDetails = Router();
-
 saveDetails.post("/api/user", async (req, res) => {
   try {
+    const userKey = req.ip;
+
+    const allowed = rateLimiter.limiter(userKey?.toString()!);
+    if (!allowed) {
+      return res.status(429).json({
+        error: "Too many requests. Please try again later.",
+      });
+    }
+
     const { name, email } = req.body;
     if (!name || !email) {
       return res.status(404).json({
